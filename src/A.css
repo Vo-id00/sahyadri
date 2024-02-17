@@ -1,0 +1,86 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .search-bar {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .filter-options {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-info {
+    padding: 10px;
+  }
+  
+  .product-name {
+    margin: 0;
+  }
+  
+  .product-price {
+    margin: 5px 0;
+  }
+  
+  .product-rating {
+    margin: 5px 0;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-btn {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0056b3;
+  }
+  
